@@ -14,14 +14,13 @@ public class HowMuch{
 		System.out.println("비싸요. 깍아주세요.");
 		System.out.print("몇 퍼센트 DC 할까요? ");
 		int dc = scan.nextInt();
-		String str = (dc<10) ? tprice-tprice*dc/100+"원 입니다." : "안팔아요.";
-		System.out.println(str);
-		/*
+		//String str = (dc<10) ? tprice*(100-dc)/100+"원 입니다." : "안팔아요.";
+		//System.out.println(str);
 		String str = "안팔아요";
 		if(dc<10){
-			str = tprice-tprice*dc/100+"원 입니다.";
+			str = tprice*(100-dc)/100+"원 입니다.";
 		}
 		System.out.println(str);
-		*/		
+		
 	}
 }
