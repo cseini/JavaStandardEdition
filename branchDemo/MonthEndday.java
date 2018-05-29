@@ -18,10 +18,7 @@ public class MonthEndday{
 		*/
 		switch(month){
 			case 2: lastday = 28; break;
-			case 4: lastday =  30; break;
-			case 6: lastday =  30; break;
-			case 9: lastday =  30; break;
-			case 11: lastday =  30; break;
+			case 4: case 6: case 9: case 11 : lastday =  30; break;
 			default : lastday = 31; break;
 		}
 		System.out.print("말일이 "+month+"월 "+lastday+"입니다.");

@@ -21,7 +21,7 @@ public class Bmi{
 			result = "2단계 비만";
 		} else{
 			result = "3단계 비만";
-		}
+		} 
 		System.out.print(result);
 	}
 }

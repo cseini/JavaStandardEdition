@@ -21,12 +21,9 @@ public class CheckGender{
 		}
 		*/
 		switch(ch){
-			case '1': gender = "남"; break;
-			case '2': gender = "여"; break;
-			case '3': gender = "남"; break;
-			case '4': gender = "여"; break;
-			case '5': gender = "외국인"; break;
-			case '6': gender = "외국인"; break;
+			case '1': case '3': gender = "남"; break;
+			case '2': case '4': gender = "여"; break;
+			case '5': case '6': gender = "외국인"; break;
 			default : result = "다시 입력하세요."; break;
 		}
 		System.out.print(result+gender);
