@@ -5,7 +5,7 @@ public class HowMuch{
 		Scanner scan = new Scanner(System.in);
 		System.out.print("얼마에요? ");
 		int price = scan.nextInt();
-		System.out.println(">>" +price+"원 입니다.");
+		System.out.println(price+"원 입니다.");
 		System.out.print("몇개 드릴까요? ");
 		int many = scan.nextInt();
 		System.out.println(many+"개 주세요.");
@@ -22,7 +22,6 @@ public class HowMuch{
 			str = tprice-tprice*dc/100+"원 입니다.";
 		}
 		System.out.println(str);
-		*/
-		
+		*/		
 	}
 }
