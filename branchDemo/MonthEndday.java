@@ -5,13 +5,12 @@ public class MonthEndday{
 		Scanner scan = new Scanner(System.in);
 		while(true){
 			System.out.print("0.종료 1.실행 > ");
-			int flag = scan.nextInt();
-				switch(flag){
+				switch(scan.nextInt()){
 					case 0 :
-					System.out.print("종료합니다.");
+					System.out.println("종료합니다.");
 					return;
 					case 1 :
-					System.out.print("실행합니다.");
+					System.out.println("실행합니다.");
 					System.out.print("원하시는 월을 입력해주세요. >");
 					int month = scan.nextInt();
 					String result = "";

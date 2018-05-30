@@ -4,8 +4,7 @@ public class CheckGender{
 		Scanner scan = new Scanner(System.in);
 		while(true){
 			System.out.print("0.종료 1.실행 > ");
-			int flag = scan.nextInt();
-			switch(flag){
+			switch(scan.nextInt()){
 				case 0 :
 					System.out.println("종료합니다.");
 				return;

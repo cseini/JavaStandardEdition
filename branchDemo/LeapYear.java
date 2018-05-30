@@ -5,8 +5,7 @@ public class LeapYear{
 		Scanner scan = new Scanner(System.in);
 		while(true){
 			System.out.print("0.종료 1.실행 > ");
-			int flag = scan.nextInt();
-			switch(flag){
+			switch(scan.nextInt()){
 				case 0: 
 					System.out.println("종료합니다.");
 				return;
@@ -22,7 +21,7 @@ public class LeapYear{
 					}
 					System.out.println(result);
 				break;
-				default: break;
+				default: System.out.print("잘못입력하셨습니다."); break;
 			}
 		}
 	}
