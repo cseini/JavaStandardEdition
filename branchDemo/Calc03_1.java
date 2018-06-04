@@ -9,22 +9,6 @@ public class Calc03_1{
 		System.out.print("두번째 숫자 입력 : ");
 		int num2 = scan.nextInt();
 		int result = 0;
-		/*
-		if(opcode.equals("+")){
-			result = num1 + num2;
-		} else if(opcode.equals("-")){
-			result = num1 - num2;
-		} else if(opcode.equals("*")){
-			result = num1 * num2;
-		} else if(opcode.equals("/")){
-			result = num1 / num2;
-		} else if(opcode.equals("%")){
-			result = num1 % num2;
-		} else{
-			System.out.println("연산자 입력 에러");
-		}
-		*/
-
 		switch(opcode){
 		case "+":
 			result = num1 + num2;
@@ -43,6 +27,5 @@ public class Calc03_1{
 		break;
 		}
 		System.out.println(num1+" "+opcode+" "+num2+" = "+result);
-
 	}
 }

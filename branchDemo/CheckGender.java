@@ -17,17 +17,6 @@ public class CheckGender{
 					String gender = "";
 					char ch = idnum.charAt(7);
 					String result =  name+" : "+idnum+" : ";
-					/*
-					if(ch=='0'||ch=='7'||ch=='8'||ch=='9'){
-						result = "다시 입력하세요.";
-					} else if(ch=='1'||ch=='3'){
-						gender = "남";
-					} else if(ch=='2'||ch=='4'){
-						gender = "여";
-					} else if(ch=='5'||ch=='6'){
-						gender = "외국인";
-					}
-					*/
 					switch(ch){
 						case '1': case '3': gender = "남"; break;
 						case '2': case '4': gender = "여"; break;
